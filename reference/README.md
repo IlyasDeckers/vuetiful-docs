@@ -4,8 +4,9 @@ sidebar: auto
 # Reference
 
 ## Utilities
+Utilities are provided by an external npm package `vuetiful-utilities` to keep your project clean. The package is installed by default and can be removed without any side effects. 
 ```js
-import { utilityName } from './utilities'
+import { utilityName } from 'vuetiful-utilities'
 ```
 
 ### replace()
@@ -15,7 +16,7 @@ Replaces an item from an array.
 
 Example:
 ```js
-import { replace } from './utilities'
+import { replace } from 'vuetiful-utilities'
 
 let users = [
   {
@@ -54,7 +55,7 @@ Remove an item from an array.
 
 Example:
 ```js
-import { remove } from './utilities'
+import { remove } from 'vuetiful-utilities'
 
 let users = [
   {
@@ -67,7 +68,7 @@ let users = [
   }
 ]
 
-user = replace(users, {
+user = remove(users, {
   id: 2,
   name: 'Jane'
 })
