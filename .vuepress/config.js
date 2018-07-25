@@ -2,6 +2,7 @@ module.exports = {
   title: 'Vuetiful documentation',
   description: 'Vuetiful documentation',
   base: '/vuetiful-docs/',
+  ga: 'UA-122895221-1',
   themeConfig: {
     sidebar: [
       ['/', 'Home'],
